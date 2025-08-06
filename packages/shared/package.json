@@ -1,0 +1,16 @@
+{
+  "name": "@missedhvac/shared",
+  "version": "1.0.0",
+  "private": true,
+  "main": "./src/index.js",
+  "types": "./src/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "dependencies": {
+    "typescript": "^5.0.0",
+    "@supabase/supabase-js": "^2.38.0",
+    "stripe": "^14.0.0"
+  }
+}
