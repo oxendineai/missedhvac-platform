@@ -1,0 +1,17 @@
+{
+  "name": "missedhvac-platform",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Bulletproof SaaS monorepo for HVAC chat widget platform",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "turbo dev",
+    "build": "turbo build",
+    "deploy": "turbo deploy"
+  },
+  "devDependencies": {
+    "turbo": "^1.10.0"
+  }
+}
