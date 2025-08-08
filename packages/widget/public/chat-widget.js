@@ -10,7 +10,7 @@
     // Configuration - customers can customize via script attributes
     const config = {
         // FIXED: Correct n8n webhook endpoint  
-        apiEndpoint: document.currentScript?.getAttribute('data-api-endpoint') || 'https://oxendineleads.app.n8n.cloud/webhook/38bab8c2-35b9-4f73-9d87-93f5eacd42e5',
+        apiEndpoint: document.currentScript?.getAttribute('data-api-endpoint') || 'https://oxendineleads.app.n8n.cloud/webhook/chat-starter',
         // SaaS customer configuration
         customerId: document.currentScript?.getAttribute('data-customer-id') || 'demo',
         apiKey: document.currentScript?.getAttribute('data-api-key') || 'sk-test-missedhvac-20250726',
